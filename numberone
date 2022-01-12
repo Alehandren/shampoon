@@ -1,0 +1,88 @@
+<html>
+<body>
+<div class="tabs">
+<style type="text/css">
+.tabs { width: 100%; padding: 0px; margin: 0 auto; }
+.tabs>input { display: none; }
+.tabs>div {
+display: none;
+padding: 20px;
+border: 1px solid #C0C0C0;
+background: #7fffd4;
+}
+.tabs>label {
+display: inline-block;
+padding: 7px;
+margin: 0 -5px -1px 0;
+text-align: center;
+color: white;
+border: 1px solid #C0C0C0;
+background: blue;
+cursor: pointer;
+}
+.tabs>input:checked + label {
+color: #000000;
+border: 1px solid #C0C0C0;
+border-bottom: 1px solid #FFFFFF;
+background: #87cefa;
+}
+#tab_1:checked ~ #txt_1,
+#tab_2:checked ~ #txt_2,
+#tab_3:checked ~ #txt_3,
+#tab_4:checked ~ #txt_4{ display: block; }
+</style>
+<input type="radio" name="inset" value="" id="tab_1" checked>
+<label for="tab_1">Портфолио</label>
+
+<input type="radio" name="inset" value="" id="tab_2">
+<label for="tab_2">Информирующая реклама</label>
+
+<input type="radio" name="inset" value="" id="tab_3">
+<label for="tab_3">Сравнительная реклама</label>
+
+<input type="radio" name="inset" value="" id="tab_4">
+<label for="tab_4">Напоминающая реклама</label>
+
+
+
+
+ <div id="txt_1">
+                <h1 style="color:hsl(182, 43%, 27%)"><font size="6" face="candara">Добро пожаловать!</font></h1>
+                <div style="float:right; padding-right:20px; padding-top:0px;"><img src =" https://sun9-27.userapi.com/impg/PGg7A_GYjRSbJjejcL94_S4Pra61-hvw53OYpA/KDkT9cG0ITM.jpg?size=810x1080&quality=96&sign=9ac1e6d912d1582dca3f6ffc032db8e4&type=album." width="492.612" height="600" alt = "Изображение"/></div>
+                <p style="color:hsl(182, 43%, 27%)"><font size="5" face="candara">Меня зовут Даниил. Живу в Йошкар Оле. Являюсь студентом "Волготеха". Люблю философию и поэтому часто путаюсь в мыслях. И если я хочу привести мысли в порядок то пользуюсь именно этим средством, речь о котором пойдет дальше".</font></p>
+                <p style="color:hsl(182, 43%, 27%)"><font size="5" face="candara">Хочу рассказать о своем любимом шампуне, который в свое время был очень известен</font></p>
+            </div>
+
+
+
+<div id="txt_2">
+                <div style="float:left; padding-right:30px; padding-top:40px;"><img src = "https://nikmag.ru/image/cache/catalog/server3/1/shampun-head-shoulders-dlya-mugchin-mgnovennaya-pomosch-400-ml-6-1-400x400.jpg" width="500" height="500" alt = "Изображение"/></div>
+        <h1 style="color:hsl(182, 43%, 27%)"><font size="6" face="candara">И так начнем...</font></h1> 
+        <div style="color:hsl(182, 43%, 27%)"><font size="5" face="candara">Представляю вашему вниманию шампунь "head & sholders</font></div>
+        <p style="color:hsl(182, 43%, 27%)"><font size="5" face="candara">Когда я прихожу после занятий, то порой у меня побаливает голова от долгих лекций или сложных практических работ в ВУЗе.</font></p>
+        <p style="color:hsl(182, 43%, 27%)"><font size="5" face="candara">Внезапно мною был обнаружен интересный факт: если сразу же воспользоваться шампунем от известного на весь мир бренда: head & holders, то в течение тридцати минут боль обязательно пройдёт ,как будто её и не было</font></p>
+        <p style="color:hsl(182, 43%, 27%)"><font size="5" face="candara">А также ваши волосы обретут мягкость , шелковистость и конечно аромат настоящего мужчины</font></p>
+            </div>
+
+
+<div id="txt_3">
+                <h1 style="color:hsl(182, 43%, 27%)"><font size="6" face="candara">Для сравнения</font></h1> 
+                <div style="float:right; padding-right:30px; padding-top:40px;"><img src = "https://cache3.youla.io/files/images/720_720_out/5b/d1/5bd19cef9380008319335ad2.jpg" width="565.200" height="400" alt = "Изображение"/></div> 
+                <p style="color:hsl(182, 43%, 27%)"><font size="5" face="candara">Во-первых, это запах. Он кардинально отличается того, которым многие из нас привыкли пользоваться. При открытии крышки нового образца чувствуется не по наслышке "ядерная свежесть" с приятным, фруктово-ментоловым ароматом.</font></p>
+                <p style="color:hsl(182, 43%, 27%)"><font size="5" face="candara">Во-вторых, в процессе мытья продолжает источать свежесть цитрусовых ,но как только волосы высохнут - все ароматы исчезнут.</font></p>
+                <p style="color:hsl(182, 43%, 27%)"><font size="5" face="candara">В третьих, главное отличие новинки от оригинала в том, что ней меньше чувствуется ментол, поэтому нет бодрящего холодка, который сохраняется несколько часов после мытья головы. Этот шампунь более мягкий, деликатный, но он не такой же эффективный , как и его собратья.</font></p>
+                </div>
+
+
+<div id="txt_4">
+                <h1 style="color:hsl(182, 43%, 27%)"><font size="6" face="candara">Шампуни от марки Head&Shoulders имеют множество преимуществ:</font></h1> 
+                <div style="Float:left; padding-right:30px; padding-top:3px;"><img src = "https://probnick.ru/wp-content/uploads/2018/01/Head_and_shoulders_magnit_kosmetik.jpg" width="700" height="400" alt = "Изображение"></div>
+                <p style="color:hsl(182, 43%, 27%)"><font size="5" face="candara">средства отлично устраняют сухость шевелюры; продукция придает локонам сногсшибательный объем; продукты данной серии подходят для людей, которые имеют чувствительную кожу, т.к. они эффективно снимают покраснение;</font></p>
+                
+
+
+</div>
+
+</div>
+</body>
+</html>
